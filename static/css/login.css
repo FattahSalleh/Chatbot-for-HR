@@ -1,0 +1,225 @@
+body {
+    background: #ffffff;
+    background-repeat: no-repeat;
+    margin: 0;
+    overflow: hidden;
+}
+
+#top_bar {
+    width: auto;
+    text-align: left;
+    padding: 10px;
+    margin: 0;
+    background-color: rgb(136, 137, 139);
+}
+
+#bot_bar {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+    padding: 0px 10px 50px 0px;
+    margin: 0;
+    background-color: rgb(136, 137, 139);
+}
+
+hr {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    /* background-color: rgb(51, 50, 50); */
+    background-color: rgb(0, 0, 0);
+    border-width: 5px;
+    /* border-color: rgb(51, 50, 50); */
+    border-color: rgb(0, 0, 0);
+}
+
+img {
+    max-width: 8%;
+    height: auto;
+}
+
+#center_logo {
+    position: relative;
+    color: white;
+    left: 37%;
+    top: 30px;
+    margin: 0;
+    width: 150%;
+}
+
+ul {
+    position: relative;
+    left: 30px;
+    list-style-type: none;
+    margin: 25px 0px 0px;
+    padding: 0px;
+    width: 250px;
+    background-color: silver;
+    border: 1px solid #555;
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 15px 16px;
+    text-decoration: none;
+    margin: 0px;
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(128, 123, 123);
+    color: white;
+}
+
+.active {
+    background-color: rgb(95, 92, 88);
+    color: white;
+}
+
+.title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+div#container {
+    width: 1000px;
+    margin: 0px auto auto 630px;
+    padding: 30px 0 0 0;
+    overflow: hidden;
+}
+
+div#left_side {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    left: 0px;
+    margin: 30px 100px 30px 10px;
+    padding: 50px;
+    border: 3px solid white;
+    background-color: white;
+    border-radius: 15px;
+    width: 300px;
+    float: left;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 3px 7px rgba(0, 0, 0, 0.3), inset 0 1px rgba(255, 255, 255, 1), inset 0 -3px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    background: linear-gradient(#eeefef, #ffffff 10%);
+}
+
+.left_title {
+    font-weight: bold;
+}
+
+#right_side {
+    width: 300px;
+    right: 200px;
+    margin: 60px auto 30px;
+    padding: 10px;
+    position: relative;
+    float: right;
+}
+
+.login_icon {
+    margin-top: 8px;
+    float: left;
+}
+
+.login_form {
+    width: 300px;
+    position: relative;
+    float: left;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.3), 0 3px 7px rgba(0, 0, 0, 0.3), inset 0 1px rgba(255, 255, 255, 1), inset 0 -3px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    background: linear-gradient(#eeefef, #ffffff 10%);
+}
+
+input[type=text],
+input[type=password],
+input[type=email] {
+    width: 83%;
+    padding: 10px 10px;
+    margin: 3px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: none;
+}
+
+div#fieldset {
+    border: none;
+    padding: 10px;
+}
+
+.login_title {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0px 5px auto;
+}
+
+.register_quest {
+    font-size: 80%;
+    position: relative;
+    left: 45px;
+}
+
+button[type="submit"] {
+    position: relative;
+    left: 150px;
+    background-color: silver;
+    padding: 5px 10px;
+    margin: 0 0 15px 0;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 120px;
+    height: 32px;
+    background: #16a085;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: 0.1s ease;
+    cursor: pointer;
+}
+
+.cancelbtn {
+    position: relative;
+    left: -100px;
+}
+
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+    opacity: 0.8;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+
+input[type="submit"]:active {
+    opacity: 1;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+    transition: 0.1s ease;
+}
+
+.help-block {
+    color: red;
+    font-size: 80%;
+    position: relative;
+    left: 10%;
+    padding: 10px 0px 0px 0px;
+}

@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="../static/css/login.css">
+
+        <title>Employee Login</title>
+
+    </head>
+
+    <body>
+
+        <div id="center_logo">
+            <h1>Chatbot for Human Resource Department</h1>
+        </div>
+
+        <div id="container">
+
+            <div class="right_side">
+                <H2 class="login_title" style=color:red;>LOGIN</H2>
+
+                <form role="form" class="login_form" method="POST">
+                    <div id="fieldset">
+                        <div class="email_form">
+                            <img src="../static/img/user.png" alt="User Logo" align="middle" class="login_icon" />
+                            <input type="text" class="login_form" placeholder="Employee ID" name="userID" autofocus required><br/>
+                        </div> 
+
+                        <div class="pass_form">
+                            <img src="../static/img/lock.png" alt="Lock Logo" align="middle" class="login_icon" />
+                            <input type="password" class="login_form"  placeholder="Password" name="userPass" autocomplete="Off" required><br/>
+                        </div>
+
+                        <button type="submit" name="submit" class="login_button">LOG IN</button>
+                        <button type="button" onclick="window.location.href='http://127.0.0.1:5000'" class="cancelbtn">Cancel</button>
+
+
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <style>
+        body{
+            background: url(../static/img/hr2.jpg);
+            background-size: cover; 
+            background-position: top center !important; 
+            background-repeat: no-repeat; 
+            height: 700px;
+
+        }
+
+        #center_logo h1{
+            margin-left: -50px;
+        }
+        </style>
+
+
+        
+    </body>
+</html>
+
