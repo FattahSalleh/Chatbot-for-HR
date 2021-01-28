@@ -1,0 +1,233 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["Yo", "Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+            "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+            "sql": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["cya", "see you later", "goodbye", "i am Leaving", "have a Good day", "bye"],
+            "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+            "sql": [""]
+        },
+        {
+            "tag": "do",
+            "patterns": ["What can you do", "what can u do"],
+            "responses": ["I can search your employee information. Try asking me some of your basic information!"],
+            "sql": [""]
+        },
+        {
+            "tag": "bot_name",
+            "patterns": ["what is your name", "what should I call you", "whats your name"],
+            "responses": ["I think it's Chatbot for HR. Not so cute but it's okay."],
+            "sql": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["ty", "thank you for your help", "thanks"],
+            "responses": ["You are welcome!", "Happy to help!", "No problem!"],
+            "sql": [""]
+        },
+        {
+            "tag": "creator",
+            "patterns": ["your creator", "made you", "your master", "by whom are you created", "who created you"],
+            "responses": ["My creator is Fattah Sallehuddin, an MMU Student!", "Fattah Sallehuddin is his name!"],
+            "sql": [""]
+        },
+        {
+            "tag": "created",
+            "patterns": ["how are you created", "how were you made", "what language did your creator used to create you"],
+            "responses": ["That's a secret tehehee~"],
+            "sql": [""]
+        },
+        {
+            "tag": "dislike",
+            "patterns": ["i hate you", "i dislike you", "you suck", "you are bad"],
+            "responses": ["Aww I'm sorry I'm still learning :(", "Sorry I could not provide the best service for you..", "I will keep on trying to improve!"],
+            "sql": [""]
+        },
+        {
+            "tag": "like",
+            "patterns": ["you are good", "i like you", "you are the best"],
+            "responses": ["Thank you! I really appreciate it!", "Aww you are too kind!", "*blushes*"],
+            "sql": [""]
+        },
+        {
+            "tag": "feedback",
+            "patterns": ["i'm having a hard time", "can i leave a feedback", "feedback form", "feedback"],
+            "responses": ["Please leave your feedback HERE! (Still not implemented)"],
+            "sql": [""]
+        },
+        {
+            "tag": "contact",
+            "patterns": ["can I talk with a real person", "may I chat with a customer support", "who can I contact for any enquiries", "can I contact your creator", "let me speak to a person"],
+            "responses": ["Feel free to email any questions or enquiries to 'fattah.sallehuddin@gmail.com' or contact '019-6331728'."],
+            "sql": [""]
+        },
+        {
+            "tag": "company_name",
+            "patterns": ["what is this company's name", "what is the name of this company", "company name"],
+            "responses": ["Chatbot for Human Resource SDN BHD"],
+            "sql": [""]
+        },
+
+
+
+
+
+        {
+            "tag": "empID",
+            "patterns": ["what is my employee ID", "what is my ID", "Employee ID", "ID"],
+            "responses": ["You literally used your ID to access my functions.. but here it is: ", "Your ID is: "],
+            "sql": ["empID"]
+        },
+        {
+            "tag": "empName",
+            "patterns": ["What is my full name", "What is my name", "Employee Name", "Name"],
+            "responses": ["Your name is: "],
+            "sql": ["empName"]
+        },
+        {
+            "tag": "empEmail",
+            "patterns": ["What is my email", "my email", "email"],
+            "responses": ["Your email is: "],
+            "sql": ["empEmail"]
+        },
+        {
+            "tag": "empPhone",
+            "patterns": ["What is my phone number", "What is my number", "number", "phone", "phone number"],
+            "responses": ["Your phone number is: "],
+            "sql": ["empPhone"]
+        },
+        {
+            "tag": "state",
+            "patterns": ["Where am I from", "What is my state", "State"],
+            "responses": ["You are from: "],
+            "sql": ["state"]
+        },
+        {
+            "tag": "birthDate",
+            "patterns": ["what is my birth date", "when was I born", "birth date"],
+            "responses": ["You were born on: "],
+            "sql": ["birthDate"]
+        },
+        {
+            "tag": "age",
+            "patterns": ["How old am I", "What is my age", "age"],
+            "responses": ["Your age is: "],
+            "sql": ["age"]
+        },
+        {
+            "tag": "sex",
+            "patterns": ["what is my gender", "what sex am i", "what is my gender", "gender", "sex"],
+            "responses": ["You are a: "],
+            "sql": ["sex"]
+        },
+        {
+            "tag": "race",
+            "patterns": ["what race am i", "what is my race", "what is my ethnicity", "race", "ethnicity"],
+            "responses": ["You race is: "],
+            "sql": ["race"]
+        },
+        {
+            "tag": "maritalDesc",
+            "patterns": ["what is my marital status", "am i single or married", "relationship", "marital"],
+            "responses": ["You are: "],
+            "sql": ["maritalDesc"]
+        },
+        {
+            "tag": "citizenDesc",
+            "patterns": ["Am I a malaysian citizen or not", "what is my citizenship", "citizenship"],
+            "responses": ["You are a: "],
+            "sql": ["citizenDesc"]
+        },
+        {
+            "tag": "hire_date",
+            "patterns": ["what is my hired date", "when was I hired", "hired date"],
+            "responses": ["You were hired on: "],
+            "sql": ["hireDate"]
+        },
+        {
+            "tag": "terminateDate",
+            "patterns": ["when is his termination date", "when was i terminated", "what is my termination date", "termination date"],
+            "responses": ["The termination date: "],
+            "sql": ["terminateDate"]
+        },
+        {
+            "tag": "terminateReason",
+            "patterns": ["What is the reason behind the termination", "Why was I terminated", "Why am I terminated from service", "termination reason"],
+            "responses": ["The reason you were terminated was because: "],
+            "sql": ["terminateReason"]
+        },
+        {
+            "tag": "employmentStatus",
+            "patterns": ["What is my employment status", "give me the employment status", "employment status"],
+            "responses": ["Your employment status is: "],
+            "sql": ["employmentStatus"]
+        },
+        {
+            "tag": "daysEmployed",
+            "patterns": ["How many days has I been employed", "how long have I been here", "days employed", "days worked"],
+            "responses": ["You have been working here for (days): "],
+            "sql": ["daysEmployed"]
+        },
+        {
+            "tag": "department",
+            "patterns": ["which department am I from", "what is my department", "department"],
+            "responses": ["You are from the department of: "],
+            "sql": ["department"]
+        },
+        {
+            "tag": "position",
+            "patterns": ["What is my position", "What is my rank in this company", "position", "rank"],
+            "responses": ["Your position in this company is: "],
+            "sql": ["position"]
+        },
+        {
+            "tag": "payRate",
+            "patterns": ["What is my salary", "How much is my salary", "pay per hour", "payrate", "salary", "pay rate"],
+            "responses": ["Your pay rate per hour is: "],
+            "sql": ["payRate"]
+        },
+        {
+            "tag": "empPerformance",
+            "patterns": ["What is my performance", "What do I need to improve in terms of performance", "what is my rating", "rating", "performance"],
+            "responses": ["Your employment performance is: "],
+            "sql": ["empPerformance"]
+        },
+        {
+            "tag": "lastEvalDate",
+            "patterns": ["When was my last performance evaluation", "my last evaluation date", "evaluation date", "eval date", "last evaluation date"],
+            "responses": ["Your last performance evaluation date was on: "],
+            "sql": ["lastEvalDate"]
+        },
+        {
+            "tag": "projectCount",
+            "patterns": ["What is my project count", "How many projects have I done", "what is my total project", "project count", "project"],
+            "responses": ["Total number of projects you have done: "],
+            "sql": ["projectCount"]
+        },
+        {
+            "tag": "annualLeave",
+            "patterns": ["What is my annual leave count", "How many annual leave i have left", "annual leave total", "annual leave", "annual"],
+            "responses": ["Number of annual leave you have left is: "],
+            "sql": ["annualLeave"]
+        },
+        {
+            "tag": "sickLeave",
+            "patterns": ["What is my sick leave count", "How many sick leave i have left", "sick leave total", "sick leave", "sick"],
+            "responses": ["Number of sick leave you have left is: "],
+            "sql": ["sickLeave"]
+        },
+        {
+            "tag": "earnedLeave",
+            "patterns": ["What is my earned leave count", "How many earned leave i have left", "earned leave total", "earned leave", "earned"],
+            "responses": ["Number of earned leave you have left is: "],
+            "sql": ["earnedLeave"]
+        }
+
+
+
+    ]
+}
